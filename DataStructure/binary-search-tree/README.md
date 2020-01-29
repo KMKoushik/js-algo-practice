@@ -21,3 +21,6 @@
 ### note
 BFS - will take lot of space if tree is wide
 DFS - will take lot of space if tree is deep
+
+DFS pre - flatten and reconstruct is easy. will help while storing and retrieving
+DFS in - Data can be help to get data in sorted order
