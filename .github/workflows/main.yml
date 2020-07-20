@@ -11,7 +11,7 @@ jobs:
       - uses: testomatio/check-tests@stable
         with:
           framework: jest
-          tests: /**.test.js
+          tests: "**/**.test.js"
           token: ${{ secrets.GITHUB_TOKEN }}
           comment-on-empty: true       
           has-tests-label: true
