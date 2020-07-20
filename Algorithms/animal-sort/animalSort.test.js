@@ -19,7 +19,7 @@ describe('animalSort', () => {
     expect(animalSort(arr)).toEqual(result);
   });
 
-  it('should also return sorted names of animals with same number of legs', () => {
+  it('should also return sorted names of animals with correct number of legs', () => {
     const arr = [
       { name: 'Cat', numberOfLegs: 4 },
       { name: 'Snake', numberOfLegs: 0 },
