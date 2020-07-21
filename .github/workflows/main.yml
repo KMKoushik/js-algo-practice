@@ -19,3 +19,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           comment-on-empty: true       
           has-tests-label: true
+          github-pat: ${{ secrets.GH_PAT }}
