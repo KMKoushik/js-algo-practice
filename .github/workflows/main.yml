@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: '12'
       - run: npm install
-      - uses: testomatio/check-tests@debug
+      - uses: testomatio/check-tests@doc-action
         with:
           framework: jest
           tests: "**/**.test.js"
