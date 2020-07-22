@@ -5,6 +5,6 @@ describe('Hello', () => {
     expect(hello('Koushik')).toBe('Hello Koushik');
   });
   test('Always pass', () => {
-    expect(true)).toBe(true);
+    expect(true).toBe(true);
   });
 });
