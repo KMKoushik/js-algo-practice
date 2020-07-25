@@ -22,4 +22,4 @@ jobs:
           github-pat: ${{ secrets.GH_PAT }}
           enable-documentation: true
           wiki-doc-name: "Test-Document"
-          documentation-branch: "master"
+          documentation-branch: "doc-branch"
